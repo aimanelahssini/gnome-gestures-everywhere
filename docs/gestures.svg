@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" font-family="Cantarell, 'Inter', 'Segoe UI', sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0l10 5-10 5z" fill="#fff"/></marker>
+  </defs>
+  <rect width="760" height="360" rx="18" fill="#2b2a33"/>
+  <!-- workspaces -->
+  <rect x="24" y="24" width="150" height="250" rx="12" fill="#3a3842" opacity="0.6"/>
+  <rect x="586" y="24" width="150" height="250" rx="12" fill="#3a3842" opacity="0.6"/>
+  <text x="99" y="155" fill="#8f8d96" font-size="15" text-anchor="middle">Workspace 1</text>
+  <text x="661" y="155" fill="#8f8d96" font-size="15" text-anchor="middle">Workspace 3</text>
+  <!-- browser filling workspace 2 -->
+  <rect x="190" y="24" width="380" height="250" rx="12" fill="#ececec"/>
+  <rect x="190" y="24" width="380" height="34" rx="12" fill="#d6d6d6"/>
+  <rect x="190" y="44" width="380" height="14" fill="#d6d6d6"/>
+  <circle cx="208" cy="41" r="6" fill="#ff7139"/><text x="222" y="46" fill="#333" font-size="14">Browser</text>
+  <rect x="214" y="78" width="230" height="12" rx="6" fill="#c9c9c9"/><rect x="214" y="102" width="320" height="12" rx="6" fill="#dadada"/><rect x="214" y="126" width="290" height="12" rx="6" fill="#dadada"/>
+  <!-- pointer over the app -->
+  <path d="M470 170l0 30 8-8 6 14 6-3-6-13 11 0z" fill="#111" stroke="#fff" stroke-width="2"/>
+  <!-- three fingers swiping -->
+  <g fill="#3584e4" fill-opacity="0.9" stroke="#fff" stroke-width="3">
+    <circle cx="330" cy="200" r="15"/><circle cx="364" cy="188" r="15"/><circle cx="398" cy="200" r="15"/>
+  </g>
+  <path d="M300 236h-110" stroke="#fff" stroke-width="4" stroke-linecap="round" marker-end="url(#a)"/>
+  <path d="M430 236h110" stroke="#fff" stroke-width="4" stroke-linecap="round" marker-end="url(#a)"/>
+  <text x="364" y="241" fill="#333" font-size="14" text-anchor="middle" font-weight="bold">3 fingers</text>
+  <text x="40" y="314" fill="#e8e6e3" font-size="17">Three-finger swipes work everywhere, even with the pointer over an app.</text>
+  <text x="40" y="338" fill="#a9a7a4" font-size="15">Without this, GNOME 50 lets apps like Firefox take the swipe first, and nothing happens.</text>
+</svg>

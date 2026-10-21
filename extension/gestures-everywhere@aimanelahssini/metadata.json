@@ -1,0 +1,9 @@
+{
+  "uuid": "gestures-everywhere@aimanelahssini",
+  "name": "Gestures Everywhere",
+  "description": "Makes GNOME's 3-finger touchpad gestures (workspaces, overview) work while the pointer is over an app such as Firefox.",
+  "shell-version": [
+    "50"
+  ],
+  "url": "https://github.com/aimanelahssini/gnome-gestures-everywhere"
+}
